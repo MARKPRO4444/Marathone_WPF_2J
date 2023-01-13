@@ -1,0 +1,16 @@
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\bin\Debug\Marathone_WPF_2J.exe.config
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\bin\Debug\Marathone_WPF_2J.exe
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\bin\Debug\Marathone_WPF_2J.pdb
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.csproj.AssemblyReference.cache
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.csproj.SuggestedBindingRedirects.cache
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\MainWindow.g.cs
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\App.g.cs
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J_MarkupCompile.cache
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J_MarkupCompile.lref
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\MainWindow.baml
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.g.resources
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.Properties.Resources.resources
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.csproj.GenerateResource.cache
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.csproj.CoreCompileInputs.cache
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.exe
+C:\Users\markusiygmail.com\source\repos\Marathone_WPF_2J\Marathone_WPF_2J\obj\Debug\Marathone_WPF_2J.pdb
