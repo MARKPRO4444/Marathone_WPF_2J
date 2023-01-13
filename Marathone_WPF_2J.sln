@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marathone_WPF_2J", "Maratho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_2", "Task_2\Task_2.csproj", "{7D2C8F94-FAEB-4A5B-8DAE-7F9FF991E904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_3", "Task_3\Task_3.csproj", "{48C10738-ADD7-496E-8D65-ECD53D3BC004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7D2C8F94-FAEB-4A5B-8DAE-7F9FF991E904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2C8F94-FAEB-4A5B-8DAE-7F9FF991E904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2C8F94-FAEB-4A5B-8DAE-7F9FF991E904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C10738-ADD7-496E-8D65-ECD53D3BC004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C10738-ADD7-496E-8D65-ECD53D3BC004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C10738-ADD7-496E-8D65-ECD53D3BC004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C10738-ADD7-496E-8D65-ECD53D3BC004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
