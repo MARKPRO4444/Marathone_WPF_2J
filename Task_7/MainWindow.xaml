@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button Name="button" Width="100" Height="100" Button.Click="button_Click"/>
+        <Button Name="button" Width="100" Height="100" Content="START!" Button.Click="button_Click"/>
             <Label Name="label" Width="100" FontSize="100" Content="0" HorizontalContentAlignment="Center" 
                    VerticalContentAlignment="Center"/>
         </StackPanel>

@@ -39,7 +39,7 @@ namespace Task_7
         private void button_Click(object sender, RoutedEventArgs e)
         {
             timer.Start();
-            if(num >= 30)
+            if(num <= 30)
             {
                 timer.Stop();
                 MessageBox.Show("Timer - Stop!");
