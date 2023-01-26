@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Task_5
+namespace Task_6
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -31,11 +31,33 @@ namespace Task_5
         private void Left_Click(object sender, RoutedEventArgs e)
         {
             Canvas.SetLeft(hero, Canvas.GetLeft(hero) - 10);
+            rect_hero = new Rect(Canvas.GetLeft(hero), Canvas.GetTop(hero), hero.Width, hero.Height);
+            rect_obstacle = new Rect(Canvas.GetLeft(obstackle), Canvas.GetTop(obstackle), obstackle.Width, obstackle.Height);
+
+            if (rect_hero.IntersectsWith(rect_obstacle))
+            {
+                hero.Background = Brushes.Yellow;
+            }
+            else
+            {
+                hero.Background = Brushes.White;
+            }
         }
 
         private void Right_Click(object sender, RoutedEventArgs e)
         {
             Canvas.SetLeft(hero, Canvas.GetLeft(hero) + 10);
+            rect_hero = new Rect(Canvas.GetLeft(hero), Canvas.GetTop(hero), hero.Width, hero.Height);
+            rect_obstacle = new Rect(Canvas.GetLeft(obstackle), Canvas.GetTop(obstackle), obstackle.Width, obstackle.Height);
+            
+            if(rect_hero.IntersectsWith(rect_obstacle))
+            {
+                hero.Background = Brushes.Yellow;
+            }
+            else
+            {
+                hero.Background = Brushes.White;
+            }
         }
     }
 }
