@@ -10,7 +10,8 @@
         <StackPanel VerticalAlignment="Center">
             <TextBox Width ="100" Height=" 100" Background="Red" Name="TextBox" HorizontalContentAlignment="Center"
                      VerticalContentAlignment="Center"/>
-            <Button Width ="100" Height=" 100" Background="Green" ButtonBase.Click="Button_Click" Name="Button"/>
+            <Button Width ="100" Height=" 100" Background="Green" ButtonBase.Click="Button_Click" Name="Button" 
+                    Button.Content =" Push"/>
         </StackPanel>
     </Grid>
 </Window>

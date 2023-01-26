@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Task_2
+namespace Task_04
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -22,13 +22,19 @@ namespace Task_2
     {
         public MainWindow()
         {
-           
+            InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int n = int.Parse(TextBox.Text);
-            Button.Content = n*n;
+            button2.Background = Brushes.Red;
+            button1.Content = "Red";
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            button1.Background = Brushes.Green;
+            button2.Content = "Green";
         }
     }
 }
