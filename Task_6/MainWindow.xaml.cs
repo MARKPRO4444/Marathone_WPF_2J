@@ -32,7 +32,7 @@ namespace Task_6
         {
             Canvas.SetLeft(hero, Canvas.GetLeft(hero) - 10);
             rect_hero = new Rect(Canvas.GetLeft(hero), Canvas.GetTop(hero), hero.Width, hero.Height);
-            rect_obstacle = new Rect(Canvas.GetLeft(obstackle), Canvas.GetTop(obstackle), obstackle.Width, obstackle.Height);
+            rect_obstacle = new Rect(Canvas.GetLeft(obstacle), Canvas.GetTop(obstacle), obstacle.Width, obstacle.Height);
 
             if (rect_hero.IntersectsWith(rect_obstacle))
             {
@@ -48,7 +48,7 @@ namespace Task_6
         {
             Canvas.SetLeft(hero, Canvas.GetLeft(hero) + 10);
             rect_hero = new Rect(Canvas.GetLeft(hero), Canvas.GetTop(hero), hero.Width, hero.Height);
-            rect_obstacle = new Rect(Canvas.GetLeft(obstackle), Canvas.GetTop(obstackle), obstackle.Width, obstackle.Height);
+            rect_obstacle = new Rect(Canvas.GetLeft(obstacle), Canvas.GetTop(obstacle), obstacle.Width, obstacle.Height);
             
             if(rect_hero.IntersectsWith(rect_obstacle))
             {

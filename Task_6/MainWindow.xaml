@@ -10,7 +10,7 @@
         <Button Width="50" Height="50" Name="hero" Content="HERO" Canvas.Left="425" Canvas.Top="100"/>
         <Button Width="100" Height="100" Name="Left" Canvas.Left="300" Canvas.Top="200" Content="Left" Button.Click="Left_Click"/>
         <Button Width="100" Height="100" Name="Right" Canvas.Left="500" Canvas.Top="200" Content="Right" Button.Click="Right_Click"/>
-        <Button Name="obstackle" Width="25" Height="435" Canvas.Left="100" Canvas.Top="0"/>
+        <Button Name="obstacle" Width="25" Height="435" Canvas.Left="100" Canvas.Top="0"/>
         
     </Canvas>
 </Window>
