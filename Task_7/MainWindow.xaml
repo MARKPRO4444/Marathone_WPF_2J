@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
         <Button Name="button" Width="100" Height="100" Content="START!" Button.Click="button_Click"/>
-            <Label Name="label" Width="100" FontSize="100" Content="0" HorizontalContentAlignment="Center" 
+            <Label Name="label" Width="150" FontSize="100" Content="0" HorizontalContentAlignment="Center" 
                    VerticalContentAlignment="Center"/>
         </StackPanel>
     </Grid>

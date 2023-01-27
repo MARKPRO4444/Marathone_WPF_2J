@@ -34,16 +34,17 @@ namespace Task_7
         {
             num++;
             label.Content = num.ToString();
+            if (num >= 30)
+            {
+                timer.Stop();
+                MessageBox.Show("Timer - Stop!");
+            }
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
             timer.Start();
-            if(num <= 30)
-            {
-                timer.Stop();
-                MessageBox.Show("Timer - Stop!");
-            }
+            
         }
     }
 }
